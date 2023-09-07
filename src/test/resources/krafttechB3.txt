@@ -1,0 +1,6 @@
+Hello World!
+
+krafftech B3 was here
+
+C:\Users\KEMAL\IdeaProjects\Batch3_TestNG_Selenium
+C:\Users\KEMAL\IdeaProjects\Batch3_TestNG_Selenium\src\test\resources\krafttechB3.txt

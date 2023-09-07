@@ -1,0 +1,88 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!-- How to run specific package -->
+<!--
+<suite name="kraftTechnologie Automation" verbose="1">
+    <test name="KraftTech Smoke Test">
+        <packages>
+            <package name="com.krafttechnologie.tests.day11_waits"></package>
+            <package name="com.krafttechnologie.tests.day12_actions_JS_fileUpload"></package>
+        </packages>
+    </test>
+</suite>
+-->
+
+
+<!-- How to run specific package -->
+<!--
+<suite name="kraftTechnologie Automation" verbose="1">
+    <test name="KraftTech Smoke Test">
+        <packages>
+            <package name="com.krafttechnologie.tests.day11_waits"></package>
+            <package name="com.krafttechnologie.tests.day12_actions_JS_fileUpload"></package>
+        </packages>
+    </test>
+</suite>
+-->
+
+<!-- How to run all package -->
+<!--
+<suite name="kraftTechnologie Automation" verbose="1">
+    <test name="KraftTech Smoke Test">
+        <packages>
+            <package name="com.krafttechnologie.tests.*"></package>
+        </packages>
+    </test>
+</suite>-->
+<!-- How to run specific class -->
+<!--
+<suite name="kraftTechnologie Automation" verbose="1">
+    <test name="KraftTech Smoke Test">
+        <classes>
+            <class name="com.krafttechnologie.tests.day11_waits.ExplicitWaitExample"></class>
+        </classes>
+    </test>
+</suite>-->
+<!-- How to run specific more class -->
+<!--
+<suite name="kraftTechnologie Automation" verbose="1">
+    <test name="KraftTech Smoke Test">
+        <classes>
+            <class name="com.krafttechnologie.tests.day11_waits.ExplicitWaitExample"></class>
+            <class name="com.krafttechnologie.tests.day12_actions_JS_fileUpload.ActionTest"></class>
+        </classes>
+    </test>
+</suite>
+-->
+<!-- How to run specific test in the class -->
+<!--
+<suite name="kraftTechnologie Automation" verbose="1">
+<test name="KraftTech Smoke Test">
+<classes>
+    <class name="com.krafttechnologie.tests.day11_waits.ExplicitWaitExample">
+        <methods>
+            <include name="test2"></include>
+        </methods>
+    </class>
+    <class name="com.krafttechnologie.tests.day12_actions_JS_fileUpload.FileUpload">
+        <methods>
+        <include name="test1"></include>
+        </methods>
+    </class>
+</classes>
+</test>
+</suite>-->
+
+<!-- How to run all test cases in class without one -->
+<!--
+<suite name="kraftTechnologie Automation" verbose="1">
+    <test name="KraftTech Smoke Test">
+        <classes>
+            <class name="com.krafttechnologie.tests.day16_POM2.DashboardTest">
+                <methods>
+                    <exclude name="navigateMenu"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+-->

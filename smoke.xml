@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="B3 Automation" verbose="1">
+    <test name="smoke test">
+        <packages>
+            <package name="com.krafttechnologie.tests.day15_POM"></package>
+        </packages>
+        <classes>
+            <class name="com.krafttechnologie.tests.day15_POM.NegativeLoginTest">
+                <methods><exclude name="navigateMenu"></exclude>
+                </methods>
+            </class>
+            <class name="com.krafttechnologie.tests.day15_POM.PositiveLoginTest"></class>
+        </classes>
+    </test>
+</suite>
